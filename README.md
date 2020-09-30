@@ -17,6 +17,6 @@ Analüüsida, kavandada ja prototüüpida uus tunniplaan.
 - [Kristjan Maidra](https://github.com/kristjanmaidra)
 - [Kevin Rull](https://github.com/kevinrull1)
 
-## Disain
+## Projekti disain
 mingi hea põhjus
 
