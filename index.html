@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunniplaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">Tunniplaan</h1>
+        <a class="search" href=""><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.99629 16.1932C10.5931 16.1928 12.1439 15.6583 13.4017 14.6746L17.3565 18.6294L18.6285 17.3573L14.6738 13.4026C15.658 12.1446 16.1929 10.5934 16.1933 8.99621C16.1933 5.02798 12.9645 1.79924 8.99629 1.79924C5.02806 1.79924 1.79932 5.02798 1.79932 8.99621C1.79932 12.9644 5.02806 16.1932 8.99629 16.1932ZM8.99629 3.59848C11.9731 3.59848 14.394 6.01936 14.394 8.99621C14.394 11.9731 11.9731 14.3939 8.99629 14.3939C6.01944 14.3939 3.59856 11.9731 3.59856 8.99621C3.59856 6.01936 6.01944 3.59848 8.99629 3.59848Z" fill="black"/>
+            <path d="M10.2665 7.72415C10.6074 8.06601 10.7954 8.51762 10.7954 8.99621H12.5947C12.5955 8.5234 12.5025 8.05511 12.3213 7.61843C12.14 7.18175 11.8739 6.78533 11.5385 6.45209C10.1765 5.09186 7.81498 5.09186 6.45386 6.45209L7.72412 7.72595C8.40783 7.04404 9.58634 7.04584 10.2665 7.72415Z" fill="black"/>
+            </svg></a>
+        </div>
+        <h1 class="klass"><u>TAK-19</u></h1>
+        <div class="dropdown-click"> 
+            <button onclick="myFunction()" class="button"></button>
+            <div id="button1" class="dropdown-content-border">
+                <a href="#" class="item-button">link 1</a>
+                <a href="#" class="item-button">link 2</a>
+                <a href="#" class="item-button">link 3</a>
+            </div>
+        </div>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("button1");
+      if (x.className.indexOf("w3-show") == -1) { 
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</html>
