@@ -6,6 +6,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background-color: #343E48;
+    overflow-x: hidden;
+}
+
 .header {
     background-color: #189DE4;
     width: 411px;
@@ -30,9 +35,6 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-body {
-    background-color: #343E48;
-}
 
 .klass {
     color: white;
@@ -49,4 +51,60 @@ body {
     width: auto;
     height: 20px;
     background-color: white;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    color: black;
+    padding: 16px;
+    font-size: 24px;
+    width: 379px;
+    border: black solid 1px;
+    user-select: none;
+}
+
+.dropdown-menu {
+    padding: 16px;
+}
+
+.menu-content {
+    display: none;
+    background-color: #017575;
+    min-width: 160px;
+    user-select: none;
+}
+
+.lesson1, .lesson2, .lesson3 {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    user-select: none;
+}
+
+.lesson1 {
+    background-color: #FF4E4C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.upper-half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-half {
+    display: flex;
+}
+
+.room {
+    border-right: solid black 1px;
+    margin-right: 1rem;
+    padding-right: 1rem;
 }
