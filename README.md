@@ -18,5 +18,9 @@ Analüüsida, kavandada ja prototüüpida uus tunniplaan.
 - [Kevin Rull](https://github.com/kevinrull1)
 
 ## Projekti disain
-mingi hea põhjus
+Esimesel päeval tegime kirjaliku disaini visiooni ja leppisime kokku, milliseid probleeme tahame oma disainiga lahendada. Ideid oli rohkesti ja otsustasime asju prioritiseerida ja tuua välja oluliseima.
+Teine päev algas eelmise päeva kirjaliku disaini üle vaatamisega ja seejärel liikusime Figmasse. Figmasse sai tehtud kõigepealt esimene prototüüp ja päeva lõpuks tekkis ka veel viimane versioon prototüübist. Otsisime veebist ka meelepäraseid disaine ja lahenudsi mida oma projektis kasutada.
+
+## Koodi kirjutamine
+Koodi kirjutamine sai alguse teisel päeval
 
