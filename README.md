@@ -5,7 +5,7 @@ Tunniplaan on Kuressaare Ametikooli tarkvaraarendajate 30.09. - 02.10.2020 proje
 Analüüsida, kavandada ja prototüüpida uus tunniplaan.
 
 ## Lingid
-- [VEEBILEHT](www.tak19ratsep.itmajakas.ee/tunniplaan)
+- [VEEBILEHT](https://tak19ratsep.itmajakas.ee/tunniplaan/)
 - [FIGMA](https://www.figma.com/file/Nqpi6LTyGPSx1w5ObDHiy9/Tunniplaan?node-id=0%3A1)
 
 ## Meeskond
