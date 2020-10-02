@@ -81,12 +81,20 @@ body {
     text-decoration: none;
     display: block;
     font-size: 30px;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     user-select: none;
 }
 
 .lesson1 {
     background-color: #FF4E4C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.lesson2 {
+    background-color: #52B7E9;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -107,4 +115,94 @@ body {
     border-right: solid black 1px;
     margin-right: 1rem;
     padding-right: 1rem;
+}
+
+.break {
+    background-color: #146CA4;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+  
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.search-overlay {
+    width: 379px;
+    height: 273px;
+    background-color: white;
+    border: black solid 1px;
+}
+
+.overlay-header {
+    background-color: #189DE4;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.overlay-text {
+    display: flex;
+    font-size: 24px;
+    padding: 5px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.x-button {
+    display: flex;
+    font-size: 2rem;
+    padding-right: 5px;
+}
+
+.nupud {
+    background-color: #189DE4;
+    width: auto;
+    height: 45px;
+    margin-top:1rem;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.select-menu {
+    width: 379px;
+    height: 40px;
+    background-color: #189DE4;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+option {
+
 }
