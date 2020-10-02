@@ -24,3 +24,14 @@ Teine päev algas eelmise päeva kirjaliku disaini üle vaatamisega ja seejärel
 ## Koodi kirjutamine
 Koodi kirjutamine sai alguse teisel päeval
 
+## Probleemid mida soovisime lahendada
+ - Pausid nähtavad päeva sees
+ - arvuti märk, arvuti klassi ees
+ - parem rühmade, õpetajate, klasside otsing - dropdown menu
+ - päeva kuvamine kõige esimesest reaalsest tunnist ja kuni viimase tunnini
+ - hetke kellaaja/tunni kuvamine 
+ - ainult need päevad kuvatud, kus tunnid toimuvad
+ - mitme õpetaja, ruumi rühma korraga kuvamine
+ - vaba ruumi otsing
+  
+
